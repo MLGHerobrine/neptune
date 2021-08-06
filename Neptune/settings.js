@@ -133,7 +133,8 @@ const settings = new SettingsObject(
                 new Setting.Toggle("Toggle KillSay", false),
                 new Setting.Toggle("KillSay Anti-Spam Bypass", true),
                 new Setting.TextInput("KillSay Trigger", "{ENEMY} was killed by {ME}!"),
-                new Setting.TextInput("KillSay Message", "Auf Wiedersehen, {ENEMY}!")
+                new Setting.TextInput("KillSay Message", "Auf Wiedersehen, {ENEMY}!"),
+                new Setting.Toggle("Panic", false)
             ]
         }
     ]
